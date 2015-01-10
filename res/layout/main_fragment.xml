@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/primary_bg_plain" >
+
+        <ImageButton
+            android:id="@+id/leaderboard"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|right"
+            android:adjustViewBounds="false"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            android:src="@drawable/leaderboard_button" />
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:src="@drawable/play_button" />
+
+        <ImageButton
+            android:id="@+id/soundMode"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="bottom|left"
+            android:background="@null"
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            android:src="@drawable/sound_on_button" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/title_temp" />
+
+</FrameLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScoreFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/primary_bg_plain" >
+
+    <TextView
+        android:id="@+id/Score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Score1"
+        android:layout_below="@+id/Score1"
+        android:layout_marginTop="20dp"
+        android:text="Score"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#7f7055" />
+
+    <TextView
+        android:id="@+id/Score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Score"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#7f7055" />
+
+    <TextView
+        android:id="@+id/Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="High Scores"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#7f5a18" />
+
+    <TextView
+        android:id="@+id/Score4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Score3"
+        android:layout_below="@+id/Score3"
+        android:layout_marginTop="20dp"
+        android:text="Score"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#7f7055" />
+
+    <TextView
+        android:id="@+id/Score5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Score4"
+        android:layout_below="@+id/Score4"
+        android:layout_marginTop="20dp"
+        android:text="Score"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#7f7055" />
+
+    <TextView
+        android:id="@+id/Score3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/Score2"
+        android:layout_below="@+id/Score2"
+        android:layout_marginTop="20dp"
+        android:text="Score"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#7f7055" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="10dp"
+        android:background="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/backarrow_button" />
+
+</RelativeLayout>

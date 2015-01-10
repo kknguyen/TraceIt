@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center" 
+    android:splitMotionEvents="false">
+
+    <uwb.css490.TraceIt.DrawArea
+        android:id="@+id/drawArea"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="100dp" />
+
+    <ImageView
+        android:id="@+id/userFeedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/drawArea"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:scaleType="center"
+        android:src="@drawable/great" />
+
+    <TextView
+        android:id="@+id/scoreAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userFeedback"
+        android:layout_below="@+id/userFeedback"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="30dp"
+        android:text="t"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/timeAdded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/scoreAdded"
+        android:layout_alignBottom="@+id/scoreAdded"
+        android:layout_alignRight="@+id/userFeedback"
+        android:layout_marginRight="25dp"
+        android:text="t"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50sp" />
+
+</RelativeLayout>
